@@ -4,7 +4,7 @@
 // se valorCompra < 100 -> sem desconto
 //cria uma função que execute isso
 
-function CaucularDesconto(valorCompra) {
+function CalcularDesconto(valorCompra) {
     let desconto = 0
     if (valorCompra >= 100) {
         desconto = valorCompra *= 0.10
@@ -20,4 +20,4 @@ function CaucularDesconto(valorCompra) {
     
 }
 
-console.log(CaucularDesconto(1200));
+console.log(CalcularDesconto(1200));
